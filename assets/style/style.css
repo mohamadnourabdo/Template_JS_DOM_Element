@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header .Content ul li a:hover {
+    color: white !important;
+    background-color: blue;
+    border-color: transparent !important;
+}
+@media only screen and (max-width: 767px) {
+    .Header .Content {
+        flex-direction: column;
+    }
+    .Header .Content .Header-a {
+        margin-bottom: 10px;
+    }
+    .Header .Content ul li a {
+        font-size: 14px !important;
+        padding: 10px 10px !important;
+        width: fit-content !important;
+    }
+}
